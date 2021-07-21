@@ -1,0 +1,33 @@
+body{
+    font-family: 'Almarai', sans-serif;
+    align-items: center;
+    background-color: #f8f9fc;
+/* 
+    width: 80%;
+    height: 100%;
+    margin: 2% 10% ; */
+}
+h1{
+    color:#006635;
+}
+.title-1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-items: center;
+    align-content: center; 
+    
+}
+.arrow{
+    max-height: 70px;
+    margin-left: 10%;
+}
+p{
+    margin: 2% 12%;
+}
+ul{
+    list-style: none;
+}
+h3{
+    margin: 3% 12%;
+}

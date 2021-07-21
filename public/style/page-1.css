@@ -1,0 +1,153 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:'Almarai', sans-serif;
+    text-align: center;
+    align-items: center;
+/* 
+    width: 80%;
+    height: 100%;
+    margin: 2% 10% ; */
+}
+.head-title{
+  background-image: url(/image/background/sa.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.input-detail{
+  width: 20%;
+  height: auto;
+  margin-top: 1%;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 2px 5px;
+  border: none;
+  box-shadow:#012e1e 0px 0px 5px;
+}
+.title-1{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+option{
+  background-color: #016d48;
+}
+@media only screen and (max-width: 750px) {
+  .head-title{
+    background-image: url(/image/background/sa.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .input-detail{
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+}
+.bank-logo-img{
+    max-width: 250px;
+    max-height: 200px;
+    padding: 2px;
+    margin: 6px;
+}
+footer{
+  background: #016d48;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.foteer-logo-gov{
+    max-width: 250px;
+    max-height: 70px;
+}
+.row-space-bittwen{
+    margin-bottom: 10px;
+}
+.bank-card{
+margin: 10px;
+padding: 10px;
+text-align: center;
+cursor: pointer;
+box-shadow: 0px 0px 4px 2px #888;
+border-radius: 10px;
+}
+
+.modal{
+    display: Hidden; /* Hidden by default <block> */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin: 0%;
+    
+}
+.modal-content{
+    /* background-color: #fefefe; */
+    background-image: url(/image/background/stats-bg.jpg);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    animation: popup 0.7s;
+}
+
+@keyframes popup {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  60%{
+    transform: scale(1.1);
+  }
+  70%{
+    transform: scale(1.2);
+  }
+  80%{
+    transform: scale(1);
+  }
+  90%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.popup-bank{
+  margin: 10px 5px;
+}
+.btnSearch{
+  border: none;
+  border-radius: 10px;
+}

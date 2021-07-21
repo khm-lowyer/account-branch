@@ -1,0 +1,60 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Almarai', sans-serif;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 5% 10%;
+}
+
+.img-secrion {
+    margin-top: 10%;
+}
+
+.user-img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.loading-img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.bank-img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.page-title {
+    font-size: 18px;
+}
+
+.error-block{
+    display: none;
+}
+
+.waiting-massage {
+    text-align: right;
+    font-size: 15px;
+    margin-top: 4%;
+}
+@media only screen and (max-device-width: 680px) {
+    .user-img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    
+    .loading-img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    
+    .bank-img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+}

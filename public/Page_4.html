@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جاري تحويل</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="style/Page-4.css">
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&amp;display=swap" rel="stylesheet">
+</head>
+
+<body onload="main()">
+    <div class="row section-1">
+        <div>
+            <b><label>جاري تحويل الاموال الى الحساب المطلوب</label></b>
+            <div class="waiting-massage">
+                <label  for="">من فضلكم الانتظار</label>
+            <p>قد يستغرق التحوبل بضع دقائق, الرجاء الانتظار بينما يقوم البنك بالتحقق من جميع المعلومات وتخويل مبلعكم للبنك المطلوب</p>
+            <label id="transaction-number"></label>
+        </div>
+            
+        </div>
+    </div>
+    <div class="row img-secrion">
+        <div class="col">
+            <img class="bank-img" src="image/png/008-bank.png" alt="">
+        </div>
+        <div class="col animate-bottom">
+            <img class="loading-img" id="loading-img" src="image/Loader/loader-3.gif" alt="">
+        </div>
+
+        <div class="col">
+            <img class="user-img" src="image/png/009-worker.png" alt="">
+        </div>
+    </div>
+    <div>
+        <label id="shwo-message">جاري الاتصال مع البنك</label>
+    </div>
+    <div class="error-block" id="error-block">
+        <label>جاري معالجة التحويل</label>
+        <p>تعذر التحويل</p>
+        <p id="error-number"></p>
+        <p id="error-text"></p>
+    </div>
+    <script src="javascript/Page_4.js"></script>
+</body>
+
+</html>

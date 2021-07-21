@@ -1,0 +1,67 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Almarai', sans-serif;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 8% 10%;
+}
+
+.side{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.cs-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.cs-loader-inner {
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    width: calc(100% - 200px);
+    color: #FFF;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.OTP-code{
+    margin: 20px 0px;
+    border: solid black 1px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+}
+.btn-code{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.cs-loader-inner label {
+    font-size: 20px;
+    opacity: 0;
+    display: inline-block;
+}
+
+.section-1{
+margin-top: 10px;
+margin-bottom: 35px;
+}
+
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}

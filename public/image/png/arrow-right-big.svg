@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="91px" viewBox="0 0 27 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>872E86CF-C3FA-4FE3-AD5F-9A2462689B42@1.5x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.141820199 0.166175583 90.9507574 0.166175583 90.9507574 26.2255106 0.141820199 26.2255106"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-239.000000, -1214.000000)">
+            <g id="ArrowCard" transform="translate(252.500000, 1259.500000) rotate(-90.000000) translate(-252.500000, -1259.500000) translate(207.000000, 1246.000000)">
+                <polygon id="Fill-1" fill="#9ACE87" points="20.2222222 0 44.7226724 14 69.2222222 0"></polygon>
+                <g id="Group-4">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-3"></g>
+                    <polyline id="Stroke-2" stroke="#006635" stroke-width="0.673" mask="url(#mask-2)" points="0.580124549 -0.231911248 0.141820199 0.0212698217 45.5458397 26.2255106 90.9507574 0.0212698217 90.5124531 -0.231911248"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
